@@ -24,10 +24,10 @@ const Card = ({ title, description, imageSrc }) => {
             </Box>
 
             <Text
-              fontSize="md"
-              color="gray.500"
-              fontFamily="stytem-ui"
-              fontWeight="semibold">
+              fontSize="lg"
+              color="gray.600"
+              fontFamily="Karla"
+              fontWeight="normal">
               {description}
             </Text>
             <Box width="100%">
@@ -36,9 +36,12 @@ const Card = ({ title, description, imageSrc }) => {
                 color="black"
                 fontWeight="semibold"
                 cursor="pointer">
-                See more <FontAwesomeIcon icon={faArrowRight} size="1x" />
+                {title === 'Little Lemon'
+                ? <a href="https://khuzaima-56.github.io/little_lemon">Live Demo</a>
+                : "See More"}
+                <FontAwesomeIcon icon={faArrowRight} size="1x" />
               </Text>
-            </Box> 
+            </Box>
           </VStack>
         </Box>
       </VStack>

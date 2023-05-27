@@ -8,28 +8,27 @@ import {
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, BreadcrumbSeparator, HStack } from "@chakra-ui/react";
-// import { CallTracker } from "assert";
 
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto:example@gmail.com",
+    url: "mailto:khuzi1act@gmail.com",
   },
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/khuzaima-56",
   },
   {
     icon: faLinkedin,
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/khuzaimaa/",
   },
   {
     icon: faFacebook,
-    url: "https://www.facebook.com",
+    url: "https://www.facebook.com/khuzaima60",
   },
   {
     icon: faTwitterSquare,
-    url: "https://twitter.com",
+    url: "https://twitter.com/khuzi_1act",
   },
 ];
 

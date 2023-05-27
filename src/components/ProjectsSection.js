@@ -5,10 +5,10 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Little Lemon",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "I designed and developed Little Lemon, a dynamic and inviting restaurant website that showcases an array of international cuisines using React. With a focus on fresh ingredients and creative dishes, Little Lemon offers a memorable dining experience in a warm and friendly atmosphere.",
+    getImageSrc: () => require("../images/little_lemon.PNG"),
   },
   {
     title: "React Infinite Scroll",
